@@ -12,12 +12,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dave/courtney/shared"
-	"github.com/dave/courtney/tester"
-	"github.com/dave/patsy"
-	"github.com/dave/patsy/builder"
-	"github.com/dave/patsy/vos"
+	"github.com/ZxillyFork/patsy"
+	"github.com/ZxillyFork/patsy/builder"
+	"github.com/ZxillyFork/patsy/vos"
 	"golang.org/x/tools/cover"
+
+	"github.com/ZxillyFork/courtney/shared"
+	"github.com/ZxillyFork/courtney/tester"
 )
 
 func TestTester_ProcessExcludes(t *testing.T) {
